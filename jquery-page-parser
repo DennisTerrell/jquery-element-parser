@@ -1,0 +1,5 @@
+(function($){
+    $("[data-lightbox]").each(function(e, i){
+        console.log(($(this).data('lightbox')))
+    });
+})(jQuery);
